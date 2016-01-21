@@ -30,8 +30,7 @@ power_consumption<-filter(hpc,Date=="1/2/2007"|Date=="2/2/2007")
 # Rename variables and change date and time variable classes
 names(power_consumption)<-gsub("_","",names(power_consumption))
 names(power_consumption)<-tolower(names(power_consumption))
-power_consumption$date<-as.Date(power_consumption$date)
-power_consumption$time<-hms(power_consumption$time)
+power_consumption$date<-as.Date(power_consumption$date, format="%d/%m/%Y")
 
 # Get information about the tidy data and view the result
 str(power_consumption)
