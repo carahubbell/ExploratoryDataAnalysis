@@ -32,7 +32,7 @@ The instructions for this project were forked from the following GitHub reposito
 
 * The plot files are named `plot1.png`, `plot2.png`, etc.
 
-* The R code files (`plot1.R`, `plot2.R`, etc.) that construct the corresponding plots, e.g. `plot1.R` constructs `plot1.png`, are provided for the user. Please note that the user must first run acquiredata.R to obtain the dataset used for the plots.
+* The R code files (`plot1.R`, `plot2.R`, etc.) that construct the corresponding plots, e.g. `plot1.R` constructs `plot1.png`, are provided for the user. Please note that the user must first run acquiredata.R to obtain the dataset used for the plots. Alternatively, the user can download the tidy data file called power_consumption.txt and save it to the working directory. This prevents the user from having to download and read a very large file.
 
 * All PNG files and R code files are provided in this git repository.
 
